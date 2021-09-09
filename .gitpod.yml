@@ -1,6 +1,6 @@
 ports:
   - port: 8000
 tasks:
-  - init: yarn install
+  - init: yarn install && npm install gatsby
     command: yarn develop
     openIn: bottom
