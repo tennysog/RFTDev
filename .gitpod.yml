@@ -1,7 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
 ports:
   - port: 8000
 tasks:
-  - init: yarn install && npm install gatsby
+  - init: yarn install
     command: yarn develop
     openIn: bottom
 github:
