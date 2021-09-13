@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN npm -g install gatsby-dev-cli
+RUN yarn global add gatsby-dev-cli
